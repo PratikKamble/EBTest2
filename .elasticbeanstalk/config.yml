@@ -1,0 +1,13 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+  master:
+    environment: 2-env
+global:
+  application_name: '2'
+  default_ec2_keyname: null
+  default_platform: PHP
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
